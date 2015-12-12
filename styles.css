@@ -1,0 +1,98 @@
+body{
+     background-image:url(./images/galaxy.gif);
+     background-size: cover;
+     
+}
+
+h1{
+     text-align:center;
+     color:rgb(255,255,255);
+     font-size:75px;
+     font-family:sans-serif;
+     font-variant: small-caps;
+}
+div {
+   
+     align-items:center;
+}
+
+.card {
+     width: 200px;
+     height: 225px;
+     
+     background-image:none;
+     background-color: rgb(255,255,255);
+     background-size: 100%;
+     
+}
+
+.card.darth-vader{
+     background-image: url(./cards/darth-vader.jpg);
+     background-size:290px;
+}
+.card.chewbacca{
+     background-image: url(./cards/chewbacca.jpg);
+     background-size:200px;
+}
+.card.yoda{
+     background-image: url(./cards/14721_Star_Wars_Yoda_ma.jpg);
+     background-size:200px;
+}
+.card.boba-fett{
+     background-image: url(./cards/Boba-fett.jpg);
+     background-size:285px;
+}
+.card.luke-skywalker{
+   background-image :url(./cards/luke-sky.jpg);
+   background-size:200px;
+}
+.card.mace-windu{
+     background-image:url(./cards/Mace_Windu.jpg);
+     background-size:200px;
+}
+.card.princess-leia{
+     background-image:url(./cards/princess-leia.jpg);
+}
+.card.padme-amidala{
+     background-image:url(./cards/Padme-Amidala1.jpg);
+     
+}
+
+
+.card.face-down{
+     background-image:url(./cards/Star_Wars.jpg);
+     background-color:none;
+     background-size:100px;
+}
+
+
+img {
+     width: 200;
+     height:500;
+}
+
+#board-wrapper {
+     width: 100%;
+}
+
+#board {
+     width: 808px;
+     height: 508px;
+     margin: auto;
+}
+
+#board .card {
+     float: left;
+     border:1px solid white;
+}
+button{
+     color:#00CCFF;
+     font-size:15px;
+}
+
+#winning h2{
+     text-align:center;
+     color:yellow;
+     font-size:155px;
+     text-shadow:7px 7px black;
+}
